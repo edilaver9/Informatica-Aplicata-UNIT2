@@ -1,0 +1,132 @@
+﻿body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.tech.eu/uploads/2023/12/provenrun-374.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #00ffcc;
+    line-height: 1.6;
+}
+    body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #c2ffc2; 
+    border-bottom: 2px solid #00ffcc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    header a {
+        color: #00ffcc;
+        text-decoration: underline;
+    }
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+    section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        color: #00ffcc;
+        border-bottom: 2px solid #00ffcc;
+        display: inline-block;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #c2ffc2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    table th, table td {
+        padding: 12px;
+        border: 1px solid #00ffcc;
+        text-align: left;
+    }
+
+    table th {
+        background: rgba(0, 0, 0, 0.8);
+        color: #00ffcc;
+    }
+
+    table tr:nth-child(even) {
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #00ffcc;
+    transition: transform 0.3s ease;
+}
+
+    img:hover {
+        transform: scale(1.1);
+    }
+#retea {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #00ffcc;
+    transition: transform 0.3s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #00ffcc;
+    font-size: 0.9rem;
+    border-top: 2px solid #00ffcc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+    footer a {
+        color: #c2ffc2;
+        text-decoration: underline;
+    }
+
+        footer a:hover {
+            color: #00ffcc;
+        }
